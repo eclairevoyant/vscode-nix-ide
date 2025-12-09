@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/nix-community/vscode-nix-ide/compare/v0.4.11...v0.6.0) (2025-12-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove special highlight of comment remarks like todo/fixme
+
+### Features
+
+* add backticks to surroundingPairs ([#491](https://github.com/nix-community/vscode-nix-ide/issues/491)) ([b8744ab](https://github.com/nix-community/vscode-nix-ide/commit/b8744ab40ca31a2012a9238d063a3d4bacfbde7c))
+* add pipe operators ([#458](https://github.com/nix-community/vscode-nix-ide/issues/458)) ([ac1ed65](https://github.com/nix-community/vscode-nix-ide/commit/ac1ed65aa92655748200cd62bd54e5ca051781bc))
+* add semantic token default scopes for nil ([#487](https://github.com/nix-community/vscode-nix-ide/issues/487)) ([48d4934](https://github.com/nix-community/vscode-nix-ide/commit/48d493465c67890a035090ea861548a49f6108dd))
+* allow "serverPath" to be a list of arguments ([#509](https://github.com/nix-community/vscode-nix-ide/issues/509)) ([6a1835a](https://github.com/nix-community/vscode-nix-ide/commit/6a1835a5b5c85b1d9de4fbf2480b315095a19a30))
+* auto-indent on pressed enter ([#477](https://github.com/nix-community/vscode-nix-ide/issues/477)) ([0c49e90](https://github.com/nix-community/vscode-nix-ide/commit/0c49e907c5537d04adde8e25e94f514adeca20d8))
+* commit generated syntax to repo ([effbf34](https://github.com/nix-community/vscode-nix-ide/commit/effbf3494a43250a537834805b305793994b9ca8)), closes [#512](https://github.com/nix-community/vscode-nix-ide/issues/512)
+* **manifest:** provide `flake.lock` format ([#507](https://github.com/nix-community/vscode-nix-ide/issues/507)) ([79876a0](https://github.com/nix-community/vscode-nix-ide/commit/79876a0fa762968a9816235f0bcf88c91a7640dd))
+* set explorer.fileNesting for flake.lock ([#498](https://github.com/nix-community/vscode-nix-ide/issues/498)) ([05b33f2](https://github.com/nix-community/vscode-nix-ide/commit/05b33f2c4c8ca266b02b99fa2771810c7393e649))
+* warn if nis-instantiate is not available in PATH ([28e38ab](https://github.com/nix-community/vscode-nix-ide/commit/28e38ab1c9377016f0669e06d1f1866d6c4a7502))
+
+
+### Bug Fixes
+
+* add auto-indent for multi-line strings ([#480](https://github.com/nix-community/vscode-nix-ide/issues/480)) ([1ff3ff0](https://github.com/nix-community/vscode-nix-ide/commit/1ff3ff0a6c769bffba1308731fb81dbe81a39378))
+* clarify descriptions of formatter settings ([#478](https://github.com/nix-community/vscode-nix-ide/issues/478)) ([4afa347](https://github.com/nix-community/vscode-nix-ide/commit/4afa3478570787c1e30cc7bea90543173be7fa21))
+* issue warning on missing `nil`/`nixd` ([#465](https://github.com/nix-community/vscode-nix-ide/issues/465)) ([2cb1d94](https://github.com/nix-community/vscode-nix-ide/commit/2cb1d94f6738efced607e772e0ea5c77b9fc7701))
+* nix file icon off center in VS code ([#495](https://github.com/nix-community/vscode-nix-ide/issues/495)) ([fc62423](https://github.com/nix-community/vscode-nix-ide/commit/fc62423d9f8f92dace4b6e70b0d83b9f0e728131))
+* shell.nix with bun instead of yarn (fixes [#473](https://github.com/nix-community/vscode-nix-ide/issues/473)) ([#474](https://github.com/nix-community/vscode-nix-ide/issues/474)) ([62b6e93](https://github.com/nix-community/vscode-nix-ide/commit/62b6e939ddac903a65273d2fc926619a724c86c8))
+* **syntax:** syntax highlighting issue with colon after interpolation in nested attrset ([aa8a59d](https://github.com/nix-community/vscode-nix-ide/commit/aa8a59d845efa5bbe69713dfddadd345611e632b)), closes [#355](https://github.com/nix-community/vscode-nix-ide/issues/355)
+* vscode debug launch ([#500](https://github.com/nix-community/vscode-nix-ide/issues/500)) ([620cb85](https://github.com/nix-community/vscode-nix-ide/commit/620cb855221e4f310dc8e470ac366139ad243e1c))
+
+
+* remove special highlight of comment remarks like todo/fixme ([fe0a576](https://github.com/nix-community/vscode-nix-ide/commit/fe0a5763cbe937ffcb00846b053b9928fc919f7e)), closes [#476](https://github.com/nix-community/vscode-nix-ide/issues/476)
+
 ## [0.5.0](https://github.com/nix-community/vscode-nix-ide/compare/v0.4.24...v0.5.0) (2025-10-10)
 
 
